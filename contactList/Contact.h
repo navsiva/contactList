@@ -14,15 +14,7 @@
 @property (assign) NSString *contactEmail;
 @property (assign) NSString *contactNumber;
 
-//-(instancetype)initWithContactName:(NSString *)contactName contactEmail:(NSString *)contactEmail contactNumber:(NSInteger *)contactNumber;
-
-
--(void)addContact:(id)contactList;
 
 
 
-// Contact()
-// Contact(name: "Cory")
-
-// [[Contact alloc] initWithName:@"Cory"]
 @end

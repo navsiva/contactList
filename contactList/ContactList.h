@@ -13,13 +13,10 @@
 
 @property (nonatomic, strong) NSMutableArray *contacts;
 
-
-
 @property Contact *contact;
 
 @property (nonatomic, strong) NSString *userInput;
 
--(void)displayMenu;
 
 -(void)addNewContact;
 

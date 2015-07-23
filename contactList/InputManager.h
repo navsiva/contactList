@@ -13,14 +13,8 @@
 
 @property (nonatomic, strong) NSDictionary *inputDictionary;
 
-//@property (nonatomic, strong) NSDictionary *outputDictionary;
-
-//@property Contact *contact;
-
 
 -(NSMutableDictionary *)takeInput;
-
--(NSMutableDictionary *)compareInput;
 
 
 

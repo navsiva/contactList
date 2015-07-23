@@ -11,31 +11,7 @@
 
 @implementation Contact
 
-//-(instancetype)initWithContactName:(NSString *)contactName contactEmail:(NSString *)contactEmail contactNumber:(NSInteger *)contactNumber{
-//    self = [super init];
-//    if(self){
-//        
-//        _contactName = contactName;
-//        _contactEmail = contactEmail;
-//        _contactNumber = contactNumber;
-//        
-//    }
-//    return self;
-//}
-
--(void)addContact:(ContactList *)contactList{
-    
-    
-    
-}
 
 
-
-
-
--(NSString *)description {
-    return [NSString stringWithFormat:@"%@ %@ %@ ", self.contactName, self.contactEmail, self.contactNumber];
-
-}
 
 @end
