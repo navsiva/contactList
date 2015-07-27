@@ -8,7 +8,7 @@
 
 #import "ContactList.h"
 #import "Contact.h"
-#import "InputManager.h"
+
 
 #define MENU_CHOICE_KEY @"menuChoice"
 
@@ -24,6 +24,7 @@
     if (self) {
         
         self.contacts = [[NSMutableArray alloc] init];
+
     }
     return self;
 }
@@ -61,18 +62,7 @@
 
 
 
--(void)addNewContact{
-    
-    InputManager *contactInputManager = [[InputManager alloc] init];
 
-    NSDictionary *dict = [contactInputManager takeInput];
-    
-    NSLog(@"dict is %@", dict);
-    
-    [self addNewContactWithDictionary:dict];
-    
-
-}
 
 
 -(void)addNewContactWithDictionary:(NSDictionary *)contactDict {

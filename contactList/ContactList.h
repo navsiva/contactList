@@ -9,18 +9,18 @@
 #import <Foundation/Foundation.h>
 #import "Contact.h"
 
+@class Apples;
+
 @interface ContactList : NSObject
 
 @property (nonatomic, strong) NSMutableArray *contacts;
 
-@property Contact *contact;
-
 @property (nonatomic, strong) NSString *userInput;
 
+@property (nonatomic, strong) Apples *apple;
 
--(void)addNewContact;
 
 -(NSArray *)contactsMatchingString:(NSString *)searchString;
-
+-(void)addNewContactWithDictionary:(NSDictionary *)contactDict;
 
 @end

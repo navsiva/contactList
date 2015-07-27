@@ -10,15 +10,12 @@
 
 @implementation InputManager
 
+
+
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        self.inputDictionary = @{
-                                 @"contactName" : @"Enter a Contact name",
-                                 @"contactEmail" : @"Enter a Contact email",
-                                 @"contactNumber" : @"Enter a Contact number",
-                                 }; // default value for inputDictionary
         
         //self.outputDictionary = [[NSDictionary alloc] init];
     }
